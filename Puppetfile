@@ -21,6 +21,10 @@ mod 'puppetlabs-apt',
 	:git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
 	:ref => '1.4.x'
 
+mod 'scalyr',
+  :git    => 'https://gitlab.flatns.net/automation/puppet-scalyr.git',
+  :branch => 'master'
+
 # A module from Github pre-packaged tarball
 mod 'puppetlabs-apache', '1.11.0'
 mod 'puppetlabs-mysql', '3.10.0'
